@@ -1,7 +1,8 @@
 
       
 
-     body {
+
+body {
     background-color: black;
     color: white;
 }
@@ -40,9 +41,6 @@ pre {
     font-size: 25px;
 }
 
-.box2 br {
-    align-items: center;
-}
 
 
 
@@ -107,55 +105,55 @@ pre {
 
 
 
-.last {
-    padding-left: 76%;
-    margin-top: 80px;
-}
 
 @media(max-width:466px) {
     .box {
-        margin-left: 200px;
-        margin-top: 200px;
+        margin-left: 0px;
+        margin-top: 170px;
     }
 
     .box2 {
-        font-size: 35px;
-        padding-left: 43px;
-        margin-left: 40px;
+        font-size: 24px;
+        margin-left: 28px;
     }
 
     .box1 {
-        margin-left: 50px;
+        margin-left: 38px;
     }
 
     .box4 {
-        font-size: 25px;
+        font-size: 17px;
         margin-top: 80px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .box3 {
-        margin-left: 50px;
+        margin-left: 20px;
+
     }
 
     .last {
-        margin-top: 450px;
+        margin-top: 220px;
     }
 
     .first img {
-        margin-left: 60%;
+        margin-left: 35%;
+    }
+
+    .last img {
+        margin-left: 30px;
     }
 
 }
 
 @media (min-width: 467px) and (max-width: 966px) {
     .box {
-        margin-left: 124px;
+        margin-left: 10px;
         margin-top: 204px;
     }
 
     .box2 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .box4 {
@@ -163,12 +161,14 @@ pre {
     }
 
     .last {
-        margin-top: 400px;
+        margin-top: 350px;
+        margin-left: 32%;
     }
 
     .first img {
-        margin-left: 47%;
+        margin-left: 42%;
     }
+
 }
 
 @media (min-width: 967px) {
@@ -178,13 +178,17 @@ pre {
     }
 
     .first img {
-        margin-left: 45%;
+        margin-left: 2%;
     }
 
     .box2 {
         font-size: 35px;
     }
-}
-        
 
+    .last {
+        padding-left: 76%;
+        margin-top: 80px;
+    }
+
+}
      
